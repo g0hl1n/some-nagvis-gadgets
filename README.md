@@ -1,4 +1,4 @@
 g0hl1ns-nagvis-gadgets
 ======================
 
-NagVis gadgets
+This is a collection of my NagVis gadgets.
