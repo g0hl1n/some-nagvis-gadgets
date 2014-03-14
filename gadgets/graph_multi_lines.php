@@ -16,7 +16,7 @@
  *	 - path to rrdfiles 	-> line 97
  *	 - path to rrdtool 	-> line 52 (the - is needed)
  *
- *	graph_multi_lines.php?linescount=1&host1=Windows Server1&service1=Check Ping&desc=Ping on Windows Server1
+ *	graph_multi_lines.php?linescount=1&host1=Windows Server1&service1=Check Ping&desc1=Ping on Windows Server1
  *	- mandatory parameters
  *		- linescount=NUM	-	How many lines should we draw?
  *		- host(NUM)		-	Hostname in nagios ( for every line -> host1=Host1&host2=Host2 if linescount=2 )
@@ -30,7 +30,7 @@
  *		- height		-	Height of the graphic in pixels				Default: 80
  *		- title			-	Title of the graph (visible on top of the graph)	Default: none
  *		- secondsback		-	How many seconds should we count back? 			Default: 14400 -> 4 hours
- *		- linewidth		-	The width of the lines 					Default: 2
+ *		- linewidth		-	The width of the lines 					Default: 1
  *		- unit			-	The vertical unit (most times UOM)			Default: none
  *		- font			-	The font rrdtool should use				Default: DejaVuSans.ttf (with full path)
  *
@@ -65,7 +65,7 @@ $title="";
 # Default vertical label -> none
 $unit="";
 # Used font -> if not exists gadget will not work
-$font="/usr/local/shinken/addons/nagvis/share/userfiles/gadgets/fonts/DejaVuSans.ttf";
+$font="/usr/local/nagios/addons/nagvis/share/userfiles/gadgets/fonts/DejaVuSans.ttf";
 
 # Mandatory parameter - how many lines should we draw?
 $linescount = $_GET["linescount"] or die;
@@ -95,7 +95,7 @@ for ($i = 1; $i <= $linescount; $i++) {
 	 } else {
 		 $color = random_color();
 	}
-	$linescommand_run = ' DEF:var'.$i.'=/usr/local/shinken/addons/pnp4nagios/var/perfdata/'.$host.'/'.$service.'.rrd:'.$perfdatarow.':MAX LINE'.$linewidth.':var'.$i.'#'.$color.':"'.$desc.'"';
+	$linescommand_run = ' DEF:var'.$i.'=/usr/local/nagios/addons/pnp4nagios/var/perfdata/'.$host.'/'.$service.'.rrd:'.$perfdatarow.':MAX LINE'.$linewidth.':var'.$i.'#'.$color.':"'.$desc.'"';
 	$linescommand .= $linescommand_run;
 }
 
@@ -147,4 +147,5 @@ function random_color(){
     }
     return $c;
 }
+
 ?>
