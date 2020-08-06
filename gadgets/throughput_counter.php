@@ -13,7 +13,6 @@
  *			text= <text beneath the gadget>
  *			check_space= <1 for adding a space for a check lamp>
  *
- * Author: Richard Leitner <me@g0hl1n.net>
  * Date: 10. Oct. 2011
  * Version 2.0
  *

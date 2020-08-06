@@ -16,7 +16,6 @@
  *			item=bla-bla <add services, seperated with ->
  *			sharpedge=0/1 <if set, edges are round, otherwise sharp>
  *
- * Author: Richard Leitner <me@g0hl1n.net>
  * Date: 21. Nov. 2011
  * Version 1.3
  *

@@ -13,7 +13,6 @@
  * recolor=[0|1] .. if 1 set color to state (OPTIONAL def=0)
  * style=[n|b|i] .. set style: [n]ormal [b]old [i]talic
  *
- * Author: Richard Leitner <me@g0hl1n.net>
  * Date: 05. Nov. 2010
  * Version 1.1
  *

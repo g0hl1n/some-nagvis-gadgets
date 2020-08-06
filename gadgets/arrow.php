@@ -5,7 +5,6 @@
  *
  * This is a NagVis Gadget, it draws an arrow in the map.
  *
- * Author: Richard Leitner <me@g0hl1n.net>
  * Date: 04. Nov. 2010
  * Version 1.2
  *

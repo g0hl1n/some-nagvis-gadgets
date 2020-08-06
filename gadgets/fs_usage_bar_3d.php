@@ -3,7 +3,6 @@
  *
  * fs_usage_bar_3d.php 
  *
- * Author: Richard Leitner <me@g0hl1n.net>
  * Date: 23.09.2010
  * Version 1.0
  *

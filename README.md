@@ -1,4 +1,3 @@
-g0hl1ns-nagvis-gadgets
-======================
+# nagvis-gadgets
 
-This is a collection of my NagVis gadgets.
+My old, obsolete and not maintained collection of NagVis gadgets.

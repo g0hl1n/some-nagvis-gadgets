@@ -10,7 +10,6 @@
  *			line= <length of vertical measurement line>
  *			text= <title text of the counter>
  *
- * Author: Richard Leitner <me@g0hl1n.net>
  * Date: 27. Dec. 2010
  * Version 1.3r1
  *

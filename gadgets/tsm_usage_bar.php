@@ -15,7 +15,6 @@
  * yscale=xxx	... Scale the Y-Axis of the Gadget (Value between 0 and 1)
  * title=xxx	... Set the title (name of FS) manually
 
- * Author: Richard Leitner <me@g0hl1n.net>
  * Date: 29. Oct. 2010
  * Version 1.0
  *
@@ -23,18 +22,6 @@
  *****************************************************************************/
 /* Changelog:
  *****************************************************************************/
-
-/* Copyright (c) 2010 by Richard Leitner 
- * License:
- * This program is free software;
- * you can redistribute it and/or modify it
- * under the terms of the GNU General Public License version 2 as published by the Free Software Foundation.
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU General Public License for more details.
- * You should have received a copy of the GNU General Public License along with this program;
- * if not, write to the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA
-*/
 
 require('./gadgets_core.php');
 //-----------------------------------------------------------------------------

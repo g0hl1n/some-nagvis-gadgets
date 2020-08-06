@@ -10,7 +10,6 @@
  *			line= <length of vertical measurement line>
  *			linedir= <direction of line, 0=down(std), 1=up
  *
- * Author: Richard Leitner <me@g0hl1n.net>
  * Date: 05. Nov. 2010
  * Version 1.3
  *

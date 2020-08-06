@@ -9,7 +9,6 @@
  * 			type (optional) = if no type is set, line will be horizontal
  *				= vertical -> line will be vertical
  *
- * Author: Richard Leitner <me@g0hl1n.net>
  * Date: 28.04.2011
  * Version 1.1
  *

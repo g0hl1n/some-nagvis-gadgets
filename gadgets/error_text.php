@@ -9,7 +9,6 @@
  *			text= <text>
  *			rot=<rotation in degrees: std is 270>
  *
- * Author: Richard Leitner <me@g0hl1n.net>
  * Date: 17.10.2011
  * Version 1.0
  *
